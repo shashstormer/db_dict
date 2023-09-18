@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+dbdict/MongoDb.py
+dbdict/__init__.py
+dbdict.egg-info/PKG-INFO
+dbdict.egg-info/SOURCES.txt
+dbdict.egg-info/dependency_links.txt
+dbdict.egg-info/requires.txt
+dbdict.egg-info/top_level.txt
