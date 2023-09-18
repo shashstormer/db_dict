@@ -1,2 +1,2 @@
 setuptools==68.2.2
-pymongo~=4.4.1
+pymongo~=4.5.0

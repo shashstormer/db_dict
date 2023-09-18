@@ -8,6 +8,8 @@ class MongoDB:
     def __init__(self, db_name, collection, key_field, conn_string=None):
         if not conn_string:
             conn_string = os.getenv("MONGO_CONNECTION_STRING")
+        if conn_string is None:
+            conn_string = "mongodb://localhost:27017/"
         self.client = MongoClient(conn_string)
         self._collection = collection
         self.key_field = key_field
