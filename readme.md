@@ -13,6 +13,21 @@ MongoDB - MongoDB_Dict
 
 MySqlDB - MySqlDB_Dict
 
+## Setting Required ENV Variables : 
+You must set the ENV vars required by the database you are using
+
+### MongoDB
+ `MONGO_CONNECTION_STRING` -> your connection string | defaults to "mongodb://localhost:27017/"
+
+### MySQL
+`MYSQL_HOST` -> host | defaults to "localhost"
+
+`MYSQL_PORT` -> port | defaults to "3306"
+
+`MYSQL_USER` -> username | defaults to "root"
+
+`MYSQL_PASSWORD` -> password | defaults to ""
+
 ## Usage :
 
 ### It is the same for all databases
