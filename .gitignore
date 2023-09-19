@@ -1,1 +1,6 @@
 .idea/*
+private
+.gitignore
+build
+DBDictionary.egg-info
+dist

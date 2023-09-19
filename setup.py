@@ -11,7 +11,7 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=[
-        'pymongo',
+        'pymongo', "mysql-connector-python"
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
