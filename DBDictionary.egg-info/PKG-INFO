@@ -1,11 +1,31 @@
-# DB Dictionary
+Metadata-Version: 2.1
+Name: DBDictionary
+Version: 0.1.0
+Summary: A dictionary-like interface for using databases
+Author: shashstormer
+Project-URL: GitHub, https://github.com/shashstormer/db_dict
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Database
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pymongo
+
+# Dict DB
 
 ## Description :
 This is a module which has been designed to make it easier to work with databases 
 in python using a dictionary like interface.
 
 ## Installation :
-`pip install DBDictionary`
+`pip install ...`
 
 ## Usage MongoDB :
 

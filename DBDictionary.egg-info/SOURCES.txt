@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+DBDictionary/MongoDb.py
+DBDictionary/__init__.py
+DBDictionary.egg-info/PKG-INFO
+DBDictionary.egg-info/SOURCES.txt
+DBDictionary.egg-info/dependency_links.txt
+DBDictionary.egg-info/requires.txt
+DBDictionary.egg-info/top_level.txt
+development/__init__.py
+development/model.py
