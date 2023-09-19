@@ -4,6 +4,7 @@ README.md
 requirements.txt
 setup.py
 DBDictionary/MongoDb.py
+DBDictionary/MySqlDb.py
 DBDictionary/__init__.py
 DBDictionary.egg-info/PKG-INFO
 DBDictionary.egg-info/SOURCES.txt

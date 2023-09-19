@@ -7,8 +7,17 @@ in python using a dictionary like interface.
 ## Installation :
 `pip install DBDictionary`
 
-## Usage MongoDB :
+# Supported Databases:
 
+MongoDB - MongoDB_Dict
+
+MySqlDB - MySqlDB_Dict
+
+## Usage :
+
+### It is the same for all databases
+
+### Sample for MongoDB
 ```python
 from DBDictionary import MongoDB_Dict
 
@@ -34,3 +43,6 @@ my_db_dict.update(your_value)  # This will update the document in the database
 my_db_dict["my_key"][
     "other data"] = "my_new_value"  # This will have no effect on the database and any changes will be lost
 ```
+
+### It is the same for other databases also
+

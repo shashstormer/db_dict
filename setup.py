@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='DBDictionary',
-    version='0.1.0',
+    version='0.1.1',
     author='shashstormer',
     description='A dictionary-like interface for using databases',
     long_description=long_description,
@@ -14,7 +14,7 @@ setup(
         'pymongo', "mysql-connector-python"
     ],
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
