@@ -1,7 +1,7 @@
 # DB Dict
 
 ## Description :
-This is a module which has beed designed to make it easier to work with databases 
+This is a module which has been designed to make it easier to work with databases 
 in python using a dictionary like interface.
 
 ## Installation :
@@ -23,5 +23,11 @@ del my_db_dict["my_key"] # This will delete the document from the collection
 your_value = my_db_dict.get("my_key", "default_value") # This will return "default_value"
 print(your_value) # This will print "default_value"
 your_value = my_db_dict["my_key"] # This will raise a KeyError
-```
 
+# editing and updating a document :
+your_value["other data"] = "my_new_value" # This will edit the value in the memory
+my_db_dict.update(your_value) # This will update the document in the database
+
+# When you edit a dictionary like this :
+my_db_dict["my_key"]["other data"] = "my_new_value" # This will have no effect on the database and any changes will be lost
+```
